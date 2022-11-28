@@ -1,0 +1,21 @@
+:root {
+    --primary-color: #0083d6;
+    --second-color: #FCCA51;
+    --padding-responsive: 30px;
+}
+
+body{
+    user-select: none;
+}
+
+header{
+    background-color: plum;
+}
+
+main{
+
+}
+
+footer{
+
+}

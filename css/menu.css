@@ -1,0 +1,30 @@
+.menu{
+    display: flex;
+    gap: 30px;
+    color: var(--second-color);
+}
+
+.logo-disney{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-menu{
+    display: none;
+}
+
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: border-color .3s;
+}
+
+.menu li:hover{
+    border-bottom: 4px solid var(--primary-color);
+}
+
+@media (max-width: 640px){
+    .menu {
+      display: none;
+  }
+}
