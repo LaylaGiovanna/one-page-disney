@@ -1,61 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/menu.css">
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="shortcut icon" href="./ico/logo-disney.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/personagens.css">
+    <link rel="stylesheet" href="./css/parque.css">
+    <link rel="stylesheet" href="./css/classicos.css">
+    <link rel="stylesheet" href="./css/filmes.css">
+    <link rel="stylesheet" href="./css/contatos.css">
+
+    <link rel="shortcut icon" href="./ico/logo-disney.ico" type="image/x-icon"/>
 
     <title>Disney</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <ul class="menu">
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#personagens">Personagens</a>
-                </li>
-                <li>
-                    <a href="#parque">Parque</a>
-                </li>
-            
-            <img class="logo-disney" src="./img/logo-disney.png" alt="Logo da Disney">
+      <nav class="menu">
+        <ul class="menu-esquerda">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#personagens">Personagens</a>
+          </li>
+          <li>
+            <a href="#parque">Parque</a>
+          </li>
+        </ul>
+      </nav>
 
-                <li>
-                    <a href="#classicos">Clássicos</a>
-                </li>
-                <li>
-                    <a href="#filmes">Filmes</a>
-                </li>
-                <li>
-                    <a href="#contatos">Contatos</a>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <div class="div-logo-disney">
+          <img
+            class="logo-disney"
+            src="./img/logo-disney.png"
+            alt="Logo da Disney"
+          />
+        </div>
+      </nav>
 
-        <nav>
-            <a class="icon-menu">
-                <i class="fa-solid fa-bars"></i>
-            </a>
-        </nav>
+      <nav class="menu">
+        <ul class="menu-direita">
+          <li>
+            <a href="#classicos">Clássicos</a>
+          </li>
+          <li>
+            <a href="#filmes">Filmes</a>
+          </li>
+          <li>
+            <a href="#contatos">Contatos</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav>
+        <a class="icon-menu">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </nav>
     </header>
 
     <main>
-        <section class="home" id="home">
+      <section class="home" id="home">
+        <div class="title-home">
+          <h1 class="description__title-home">Bem-vindo ao</h1>
 
-        </section>
+          <h2 class="description__subtitle-home">mundo da Disney</h2>
+        </div>
+      </section>
 
-        <section class="personagens" id="personagens"></section>
+      <section class="personagens" id="personagens">
+          <div class="title-personagens">
+            <span class="description__title-personagens">Personagens</span>
+          </div>
+
+        <div class="container-slide">
+          <div class="action-button" id="previous">&laquo</div>
+          <div class="container-items" id="container-items"></div>
+          <div class="action-button" id="next">&raquo</div>
+        </div>
+        <script src="./slideShow.js"></script>
+
+      </section>
+
+      <section class="parque"></section>
+
+      <section class="classicos"></section>
+
+      <section class="filmes"></section>
+
+      <section class="contatos"></section>
     </main>
-    
-    <footer>
-    </footer>
-</body>
+
+    <footer></footer>
+  </body>
 </html>

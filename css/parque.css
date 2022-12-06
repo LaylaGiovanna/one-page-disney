@@ -1,0 +1,8 @@
+.parque{
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -40px 40px #9ec3da;
+}

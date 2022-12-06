@@ -1,6 +1,7 @@
 :root {
   --primary-color: #0083d6;
   --second-color: #fcca51;
+  --color-text: #fff;
   --padding-default: 30px;
 }
 
@@ -8,15 +9,16 @@ body {
   user-select: none;
   display: grid;
   grid-template-areas: "content";
+  
 }
 
 header {
   grid-area: content;
   margin-top: var(--padding-default);
   width: 100%;
-  max-width: 1300px;
+  max-width: 1400px;
   place-self: start center;
-  z-index: 500;
+  z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center
