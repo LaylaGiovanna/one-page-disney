@@ -1,8 +1,16 @@
 .parque{
     background-color: lightblue;
     width: 100%;
-    display: flex;
+    display: grid;
     justify-content: center;
-    align-items: center;
+    padding-top: var(--padding-default);
     box-shadow: inset 0px -40px 40px #9ec3da;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: ;
+    
+}
+
+.description__title-parque{
+    color: var(--second-color);
+    font-size: 3.75rem;
 }
