@@ -1,8 +1,29 @@
 .classicos{
-    background-color: lightseagreen;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: inset 0px -40px 40px #9ec3da;
 }
+
+.title-classicos {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    padding-top: var(--padding-default);
+    font-family: "Times New Roman", sans-serif;
+  }
+  
+  .description__title-classicos {
+    display: flex;
+    color: var(--primary-color);
+    font-size: 5.75rem;
+    align-self: center;
+  }
+
+  .description__subtitle-classicos {
+    display: flex;
+    color: black;
+    font-size: 1.75rem;
+    align-self: center;
+  }

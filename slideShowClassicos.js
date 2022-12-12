@@ -1,13 +1,10 @@
 'use strict';
 
 const images = [
-    { 'id' : '1', 'url': './img/circulo-buzz.png' },
-    { 'id' : '2', 'url': './img/circulo-moana.png'},
+    { 'id' : '1', 'url': './img/ducktales.jfif' },
+    { 'id' : '2', 'url': './img/tico-e-teco.jfif'},
     { 'id' : '3', 'url': './img/circulo-genio.png'},
     { 'id' : '4', 'url': './img/circulo-mike.png'},
-    { 'id' : '5', 'url': './img/circulo-remi.png'},
-    { 'id' : '6', 'url': './img/circulo-tiana.png'},
-    { 'id' : '7', 'url': './img/circulo-stitch.png'},
 ]
 
 

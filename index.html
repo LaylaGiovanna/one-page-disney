@@ -7,13 +7,17 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/menu.css" />
     <link rel="stylesheet" href="./css/home.css" />
-    <link rel="stylesheet" href="./css/personagens.css">
-    <link rel="stylesheet" href="./css/parque.css">
-    <link rel="stylesheet" href="./css/classicos.css">
-    <link rel="stylesheet" href="./css/filmes.css">
-    <link rel="stylesheet" href="./css/contatos.css">
+    <link rel="stylesheet" href="./css/personagens.css" />
+    <link rel="stylesheet" href="./css/parque.css" />
+    <link rel="stylesheet" href="./css/classicos.css" />
+    <link rel="stylesheet" href="./css/filmes.css" />
+    <link rel="stylesheet" href="./css/contatos.css" />
 
-    <link rel="shortcut icon" href="./ico/logo-disney.ico" type="image/x-icon"/>
+    <link
+      rel="shortcut icon"
+      href="./ico/logo-disney.ico"
+      type="image/x-icon"
+    />
 
     <title>Disney</title>
   </head>
@@ -23,13 +27,13 @@
       <nav class="menu">
         <ul class="menu-esquerda">
           <li>
-            <a href="#home">Home</a>
+            <a href="#home" id="home">Home</a>
           </li>
           <li>
-            <a href="#personagens">Personagens</a>
+            <a href="#personagens" id="personagens">Personagens</a>
           </li>
           <li>
-            <a href="#parque">Parque</a>
+            <a href="#parque" id="parque">Parque</a>
           </li>
         </ul>
       </nav>
@@ -75,9 +79,9 @@
       </section>
 
       <section class="personagens" id="personagens">
-          <div class="title-personagens">
-            <span class="description__title-personagens">Personagens</span>
-          </div>
+        <div class="title-personagens">
+          <span class="description__title-personagens">Personagens</span>
+        </div>
 
         <div class="container-slide">
           <div class="action-button" id="previous">&laquo</div>
@@ -87,23 +91,69 @@
         <script src="./slideShow.js"></script>
 
         <div class="div-geometrico-personagens">
-          <img class="geometrico-personagens" src="./img/geometrico-azul.png" alt="">
+          <img
+            class="geometrico-personagens"
+            src="./img/geometrico-azul.png"
+            alt=""
+          />
         </div>
-
       </section>
 
-      <section class="parque">
+      <section class="parque" id="parque">
         <div class="title-parque">
-          <h1 class="description__title-parque">Disneyland & Walt Disney Studio</h1>
+          <h1 class="description__title-parque">
+            Disneyland & Walt Disney Studio
+          </h1>
+        </div>
+
+        <div class="images-parque">
+          <div class="image-parque-1">
+            <img class="image-parque-1" src="./img/imagem-parque-1.png" alt="" />
+            <p class="texts-parque">50 anos de parque</p>
+          </div>
+
+          <div class="image-parque-2">
+            <img class="image-parque-2" src="./img/imagem-parque-2.png" alt="" />
+            <p class="texts-parque-2">Novas medidas estão sendo introduzidas na França</p>
+          </div>
+
+          <div class="image-parque-3">
+            <img class="image-parque-3" src="./img/imagem-parque-3.png" alt="" />
+            <p class="texts-parque">Disneyland Paris</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="classicos" id="classicos">
+        <div class="title-classicos">
+          <h2 class="description__title-classicos">Clássicos</h2>
+          <span class="description__subtitle-classicos">As histórias favoritas de todos</span>
+        </div>
+
+        <div class="container-slide-classicos">
+          <div class="action-button-classicos" id="previous">&laquo</div>
+          <div class="container-items-classicos" id="container-items"></div>
+          <div class="action-button-classicos" id="next">&raquo</div>
+        </div>
+        <script src="./slideShowClassicos.js"></script>
+
+        <div class="div-geometrico-personagens">
+          <img
+            class="geometrico-personagens"
+            src="./img/geometrico-azul.png"
+            alt=""
+          />
         </div>
 
       </section>
 
-      <section class="classicos"></section>
+      <section class="filmes" id="filmes">
 
-      <section class="filmes"></section>
+      </section>
 
-      <section class="contatos"></section>
+      <section class="contatos" id="contatos">
+
+      </section>
     </main>
 
     <footer></footer>
