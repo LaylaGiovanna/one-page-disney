@@ -23,3 +23,25 @@
 .description__subtitle-home{
     font-size: 5.75rem;
 }
+
+@media (max-width: 960px) {
+    .home{
+        width: 80%;
+    }
+
+  }
+  
+  @media (max-width: 640px) {
+    .description__title-home {
+        display: flex;
+        flex-direction: column;
+        font-size: 4.25rem;
+        align-items: center;
+      }
+      .description__subtitle-home {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.5rem;
+        align-items: center;
+      }
+  }

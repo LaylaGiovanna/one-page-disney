@@ -58,3 +58,29 @@ section {
   background-color: var(--primary-color);
   color: var(--second-color);
 }
+
+
+/* TABLET */
+@media (max-width: 960px) {
+  header {
+    width: 80%;
+  }
+  header .menu {
+    display: none;
+  }
+  .icon-menu{
+    display: inline;
+    font-size: 1.75rem;
+    color: var(--primary-color);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 640px) {
+  header{
+    width: 80%;
+  }
+  header .menu {
+    display: none;
+  }
+}

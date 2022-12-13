@@ -48,4 +48,13 @@
   .menu {
     display: none;
   }
+  .div-logo-disney {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+  }
+  .icon-menu {
+    display: flex;
+    align-items: center;
+  }
 }
