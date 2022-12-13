@@ -1,8 +1,32 @@
-.filmes{
-    background-color: mediumorchid;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0px -40px 40px #9ec3da;
+.filmes {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  box-shadow: inset 0px -40px 40px #9ec3da;
+  grid-template-rows: repeat(5, auto);
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.title-filmes {
+  display: grid;
+  justify-content: center;
+  padding-top: var(--padding-default);
+  font-family: "Times New Roman", sans-serif;
+  grid-column: 1/12;
+  gap: var(--padding-default);
+  grid-row: 1/5;
+  width: 650px;
+}
+
+.description__title-filmes {
+  color: var(--primary-color);
+  font-size: 4.75rem;
+  flex-wrap: wrap;
+}
+
+.description__subtitle-filmes {
+  color: black;
+  font-size: 1.3rem;
+  align-items: center;
+  display: flex;
 }

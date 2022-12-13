@@ -1,41 +1,41 @@
 'use strict';
 
-const images = [
-    { 'id' : '1', 'url': './img/ducktales.jfif' },
-    { 'id' : '2', 'url': './img/tico-e-teco.jfif'},
-    { 'id' : '3', 'url': './img/circulo-genio.png'},
-    { 'id' : '4', 'url': './img/circulo-mike.png'},
+const imagesClassicos = [
+    { 'id' : '1', 'url': './img/ducktales.png' },
+    { 'id' : '2', 'url': './img/tico-e-teco.png'},
+    { 'id' : '3', 'url': './img/a-pequena-sereia.png'},
+    { 'id' : '4', 'url': './img/corcunda-de-notredame.jpg'},
 ]
 
 
 
 
-const containerItems = document.querySelector('#container-items');
+const containerItemsClassicos = document.querySelector('#container-items-classicos');
 
-const loadImages = ( images, container ) => {
+const loadImagesClassicos = ( images, container ) => {
     images.forEach ( image => {
         container.innerHTML += `
-            <div class='item'>
+            <div class='item-classicos'>
                 <img src='${image.url}'
             </div>
         `
     })
 }
 
-loadImages( images, containerItems );
+loadImagesClassicos( imagesClassicos, containerItemsClassicos );
 
-let items = document.querySelectorAll('.item');
+let itemsClassicos = document.querySelectorAll('.item-classicos');
 
-const previous = () => {
-    containerItems.appendChild(items[0]);
-    items = document.querySelectorAll('.item');
+const previousClassicos = () => {
+    containerItems.appendChild(itemsClassicos[0]);
+    itemsClassicos = document.querySelectorAll('.item-classicos');
 }
 
-const next = () => {
-    const lastItem = items[items.length - 1];
-    containerItems.insertBefore( lastItem, items[0] );
-    items = document.querySelectorAll('.item');
+const nextClassicos = () => {
+    const lastItem = itemsClassicos[items.length - 1];
+    containerItems.insertBefore( lastItem, itemsClassicos[0] );
+    itemsClassicos = document.querySelectorAll('.item-classicos');
 }
 
-document.querySelector('#previous').addEventListener('click', previous);
-document.querySelector('#next').addEventListener('click', next);
+document.querySelector('#previous-classicos').addEventListener('click', previousClassicos);
+document.querySelector('#next-classicos').addEventListener('click', nextClassicos);

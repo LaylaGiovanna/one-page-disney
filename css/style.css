@@ -42,7 +42,7 @@ section {
   text-decoration: none;
   color: var(--second-color);
   font-size: 26px;
-  background-color: #323232;
+  background-color: var(--second-color);
   padding: 10px;
   position: fixed;
   right: 50px;

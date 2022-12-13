@@ -1,6 +1,7 @@
 .contatos{
     background-color: mediumturquoise;
     width: 100%;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;

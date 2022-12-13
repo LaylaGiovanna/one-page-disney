@@ -1,29 +1,112 @@
-.classicos{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0px -40px 40px #9ec3da;
+.classicos {
+  width: 100%;
+  display: grid;
+  /* justify-content: center;
+    align-items: center; */
+  box-shadow: inset 0px -40px 40px #9ec3da;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(12, 1fr);
 }
 
 .title-classicos {
-    display: flex;
-    height: 120px;
-    justify-content: center;
-    padding-top: var(--padding-default);
-    font-family: "Times New Roman", sans-serif;
-  }
-  
-  .description__title-classicos {
-    display: flex;
-    color: var(--primary-color);
-    font-size: 5.75rem;
-    align-self: center;
-  }
+  display: grid;
+  height: 120px;
+  justify-content: center;
+  padding-top: var(--padding-default);
+  font-family: "Times New Roman", sans-serif;
+  grid-row: 1/3;
+  grid-column: 2/12;
+}
 
-  .description__subtitle-classicos {
-    display: flex;
-    color: black;
-    font-size: 1.75rem;
-    align-self: center;
-  }
+.description__title-classicos {
+  color: var(--primary-color);
+  font-size: 5.75rem;
+}
+
+.description__subtitle-classicos {
+  color: black;
+  font-size: 1.3rem;
+  align-items: center;
+  display: flex;
+  place-self: center;
+}
+
+.container-slide-classicos {
+  display: flex;
+  justify-content: center;
+  width: 52.5vw;
+  height: 56.5vh;
+  margin: 20vh auto;
+  border-radius: 30px;
+  box-shadow: 0 10px 10px #9ec3da;
+  border: 6px solid var(--primary-color);
+  transform: translate(70px, 39px);
+  justify-content: space-between;
+  grid-column: 1/12;
+  grid-row: 2/3;
+}
+
+.container-items-classicos {
+  position: absolute;
+  display: flex;
+  width: 51.9vw;
+  height: 55.2vh;
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.item-classicos {
+  width: 52.5vw;
+  height: 40vh;
+  transition: all 1s;
+}
+.item-classicos :first-child {
+  margin-left: -100%;
+}
+
+.item-classicos img {
+  width: 52.5vw;
+  height: 56.3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-button-classicos {
+  font: bold 40px sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  color: #9ec3da;
+  user-select: none;
+  z-index: 1;
+  height: 55.9vh;
+}
+
+#previous-classicos {
+  border-radius: 20px 0 0 20px;
+}
+
+#next-classicos {
+  border-radius: 0 20px 20px 0;
+}
+
+.action-button-classicos:hover {
+  color: #9ec3da;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  transition: all 1s;
+}
+
+
+.div-geometrico-classicos {
+  height: 96px;
+  transform: translateY(629px);
+  z-index: -1;
+  position: absolute;
+}
+
+.geometrico-classicos {
+  width: 600px;
+}

@@ -22,7 +22,7 @@
 }
 
 .container-slide {
-  transform: translateX(30px);
+  /* transform: translateX(30px); */
   display: grid;
   justify-content: center;
   width: 56vw;
@@ -32,7 +32,8 @@
   box-shadow: 0 10px 10px #9ec3da;
   border: 6px solid var(--primary-color);
   position: absolute;
-  transform: translate(70px, 39px);
+  /* transform: translate(70px, 39px); */
+  
 }
 
 .container-items {
@@ -86,7 +87,7 @@
 }
 
 .action-button:hover {
-  color: #9ec3da;
+  color:var(--second-color);
   background-color: var(--primary-color);
   cursor: pointer;
   transition: all 1s;
