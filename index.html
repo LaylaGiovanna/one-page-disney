@@ -1,166 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/menu.css" />
-    <link rel="stylesheet" href="./css/home.css" />
-    <link rel="stylesheet" href="./css/personagens.css" />
-    <link rel="stylesheet" href="./css/parque.css" />
-    <link rel="stylesheet" href="./css/classicos.css" />
-    <link rel="stylesheet" href="./css/filmes.css" />
-    <link rel="stylesheet" href="./css/contatos.css" />
 
-    <link
-      rel="shortcut icon"
-      href="./ico/logo-disney.ico"
-      type="image/x-icon"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/menu.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="./css/personagens.css" />
+  <link rel="stylesheet" href="./css/parque.css" />
+  <link rel="stylesheet" href="./css/classicos.css" />
+  <link rel="stylesheet" href="./css/filmes.css" />
+  <link rel="stylesheet" href="./css/contatos.css" />
 
-    <title>Disney</title>
-  </head>
+  <link rel="shortcut icon" href="./ico/logo-disney.ico" type="image/x-icon" />
 
-  <body>
-    <header>
-      <nav class="menu">
-        <ul class="menu-esquerda">
-          <li>
-            <a href="#home" id="home">Home</a>
-          </li>
-          <li>
-            <a href="#personagens" id="personagens">Personagens</a>
-          </li>
-          <li>
-            <a href="#parque" id="parque">Parque</a>
-          </li>
-        </ul>
-      </nav>
+  <title>Disney</title>
+</head>
 
-      <nav>
-        <div class="div-logo-disney">
-          <img
-            class="logo-disney"
-            src="./img/logo-disney.png"
-            alt="Logo da Disney"
-          />
-        </div>
-      </nav>
+<body>
+  <header>
+    <nav class="menu">
+      <ul class="menu-esquerda">
+        <li>
+          <a href="#home" id="home">Home</a>
+        </li>
 
-      <nav class="menu">
-        <ul class="menu-direita">
-          <li>
-            <a href="#classicos">Clássicos</a>
-          </li>
-          <li>
-            <a href="#filmes">Filmes</a>
-          </li>
-          <li>
-            <a href="#contatos">Contatos</a>
-          </li>
-        </ul>
-      </nav>
+        <li>
+          <a href="#personagens" id="personagens">Personagens</a>
+        </li>
 
-      <nav>
-        <a class="icon-menu">
-          <i class="fa-solid fa-bars"></i>
-        </a>
-      </nav>
-    </header>
+        <li>
+          <a href="#parque" id="parque">Parque</a>
+        </li>
 
-    <main>
-      <section class="home" id="home">
-        <div class="title-home">
-          <h1 class="description__title-home">Bem-vindo ao</h1>
+      </ul>
+    </nav>
 
-          <h2 class="description__subtitle-home">mundo da Disney</h2>
-        </div>
-      </section>
+    <nav>
+      <div class="div-logo-disney">
+        <img class="logo-disney" src="./img/logo-disney.png" alt="Logo da Disney" />
+      </div>
+    </nav>
 
-      <section class="personagens" id="personagens">
-        <div class="title-personagens">
-          <span class="description__title-personagens">Personagens</span>
-        </div>
+    <nav class="menu">
+      <ul class="menu-direita">
+        <li>
+          <a href="#classicos">Clássicos</a>
+        </li>
 
-        <div class="container-slide">
-          <div class="action-button" id="previous">&laquo</div>
-          <div class="container-items" id="container-items"></div>
-          <div class="action-button" id="next">&raquo</div>
-        </div>
-        <script src="./slideShow.js"></script>
+        <li>
+          <a href="#filmes">Filmes</a>
+        </li>
 
-        <div class="div-geometrico-personagens">
-          <img
-            class="geometrico-personagens"
-            src="./img/geometrico-azul.png"
-            alt=""
-          />
-        </div>
-      </section>
+        <li>
+          <a href="#contatos">Contatos</a>
+        </li>
+      </ul>
+    </nav>
 
-      <section class="parque" id="parque">
-        <div class="title-parque">
-          <h1 class="description__title-parque">
-            Disneyland & Walt Disney Studio
-          </h1>
-        </div>
+    <nav>
+      <a class="icon-menu">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </nav>
+  </header>
 
-        <div class="images-parque">
-          <div class="image-parque-1">
-            <img class="image-parque-1" src="./img/imagem-parque-1.png" alt="" />
-            <p class="texts-parque">50 anos de parque</p>
-          </div>
+  <main>
+    <section class="home" id="home">
+      <div class="title-home">
+        <h1 class="description__title-home">Bem-vindo ao</h1>
 
-          <div class="image-parque-2">
-            <img class="image-parque-2" src="./img/imagem-parque-2.png" alt="" />
-            <p class="texts-parque-2">Novas medidas estão sendo introduzidas na França</p>
-          </div>
+        <h2 class="description__subtitle-home">mundo da Disney</h2>
+      </div>
+    </section>
 
-          <div class="image-parque-3">
-            <img class="image-parque-3" src="./img/imagem-parque-3.png" alt="" />
-            <p class="texts-parque">Disneyland Paris</p>
-          </div>
-        </div>
-      </section>
+    <section class="personagens" id="personagens">
+      <div class="title-personagens">
+        <span class="description__title-personagens">Personagens</span>
+      </div>
 
-      <section class="classicos" id="classicos">
-        <div class="title-classicos">
-          <h2 class="description__title-classicos">Clássicos</h2>
-          <span class="description__subtitle-classicos">As histórias favoritas de todos</span>
+      <div class="container-slide">
+        <div class="action-button" id="previous">&laquo</div>
+        <div class="container-items" id="container-items"></div>
+        <div class="action-button" id="next">&raquo</div>
+      </div>
+      <script src="./slideShow.js"></script>
+
+      <div class="div-geometrico-personagens">
+        <img class="geometrico-personagens" src="./img/geometrico-azul.png" alt="" />
+      </div>
+    </section>
+
+    <section class="parque" id="parque">
+      <div class="title-parque">
+        <h1 class="description__title-parque">
+          Disneyland & Walt Disney Studio
+        </h1>
+      </div>
+
+      <div class="images-parque">
+        <div class="image-parque-1">
+          <img class="image-parque-1" src="./img/imagem-parque-1.png" alt="" />
+          <p class="texts-parque">50 anos de parque</p>
         </div>
 
-        <div class="container-slide-classicos">
-          <div class="action-button-classicos" id="previous-classicos">&laquo</div>
-          <div class="container-items-classicos" id="container-items-classicos"></div>
-          <div class="action-button-classicos" id="next-classicos">&raquo</div>
-        </div>
-        <script src="./slideShowClassicos.js"></script>
-
-        <div class="div-geometrico-classicos">
-          <img class="geometrico-classicos" src="./img/geometrico-azul.png" alt="">
-        </div>
-      </section>
-
-      <section class="filmes" id="filmes">
-        <div class="title-filmes">
-          <h2 class="description__title-filmes">Filmes na plataforma digital</h2>
-          <span class="description__subtitle-filmes">Recomendamos em lojas digitais</span>
+        <div class="image-parque-2">
+          <img class="image-parque-2" src="./img/imagem-parque-2.png" alt="" />
+          <p class="texts-parque-2">Novas medidas estão sendo introduzidas na França</p>
         </div>
 
-        <div class="container-slide-filmes">
-          <div class="container-items-filmes" id="container-items-filmes"></div>
-          <div class="action-button-filmes" id="previous-filmes">&laquo</div>
-          <div class="action-button-filmes" id="next-filmes">&raquo</div>
+        <div class="image-parque-3">
+          <img class="image-parque-3" src="./img/imagem-parque-3.png" alt="" />
+          <p class="texts-parque">Disneyland Paris</p>
         </div>
-        <script src="./slideShowFilmes.js"></script>
-      </section>
+      </div>
+    </section>
 
-      <section class="contatos" id="contatos">
+    <section class="classicos" id="classicos">
+      <div class="title-classicos">
+        <h2 class="description__title-classicos">Clássicos</h2>
+        <span class="description__subtitle-classicos">As histórias favoritas de todos</span>
+      </div>
 
-      </section>
-    </main>
+      <div class="container-slide-classicos">
+        <div class="action-button-classicos" id="previous-classicos">&laquo</div>
+        <div class="container-items-classicos" id="container-items-classicos"></div>
+        <div class="action-button-classicos" id="next-classicos">&raquo</div>
+      </div>
+      <script src="./slideShowClassicos.js"></script>
 
-    <footer></footer>
-  </body>
+      <div class="div-geometrico-classicos">
+        <img class="geometrico-classicos" src="./img/geometrico-azul.png" alt="">
+      </div>
+    </section>
+
+    <section class="filmes" id="filmes">
+      <div class="title-filmes">
+        <h2 class="description__title-filmes">Filmes na plataforma digital</h2>
+        <span class="description__subtitle-filmes">Recomendamos em lojas digitais</span>
+      </div>
+      
+      <div class="images-filmes">
+        <img src="./img/Desencantada-capa.png" alt="">
+
+        <img src="./img/wakanda-capa.png" alt="">
+
+        <img src="./img/encanto-capa.png" alt="">
+        
+        <img src="./img/capa-guerra-infinita.png" alt="">
+
+        <img src="./img/capa-cruella.png" alt="">
+
+        <img src="./img/capa-eternos.png" alt="">
+      </div>
+
+    </section>
+
+    <section class="contatos" id="contatos">
+
+    </section>
+  </main>
+
+  <a title="Voltar ao topo" id="link-topo" href="#">&#9651</a>
+
+  <footer>
+
+  </footer>
+</body>
+
 </html>

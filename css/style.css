@@ -31,16 +31,13 @@ main {
   align-items: center;
 }
 
-footer {
-}
-
 section {
   height: 100vh;
 }
 
 #link-topo {
   text-decoration: none;
-  color: var(--second-color);
+  color: var(--primary-color);
   font-size: 26px;
   background-color: var(--second-color);
   padding: 10px;
@@ -59,4 +56,5 @@ section {
 
 #link-topo:hover {
   background-color: var(--primary-color);
+  color: var(--second-color);
 }

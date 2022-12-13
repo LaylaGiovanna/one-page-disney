@@ -5,14 +5,18 @@
   box-shadow: inset 0px -40px 40px #9ec3da;
   grid-template-rows: repeat(5, auto);
   grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: 
+  "title" "filmes"
+  "title" "filmes";
 }
 
 .title-filmes {
+  grid-area: title;
   display: grid;
   justify-content: center;
   padding-top: var(--padding-default);
   font-family: "Times New Roman", sans-serif;
-  grid-column: 1/12;
+  grid-column: 2/12;
   gap: var(--padding-default);
   grid-row: 1/5;
   width: 650px;
@@ -21,7 +25,7 @@
 .description__title-filmes {
   color: var(--primary-color);
   font-size: 4.75rem;
-  flex-wrap: wrap;
+  
 }
 
 .description__subtitle-filmes {
@@ -30,3 +34,15 @@
   align-items: center;
   display: flex;
 }
+
+.images-filmes{
+  grid-area: filmes;
+  display: flex;
+  grid-column: 9/12;
+  grid-row: 1/5;
+  padding-top: var(--padding-default);
+  gap: 50px;
+  width: 912px;
+  flex-wrap: wrap;
+}
+
