@@ -27,13 +27,13 @@ loadImagesClassicos( imagesClassicos, containerItemsClassicos );
 let itemsClassicos = document.querySelectorAll('.item-classicos');
 
 const previousClassicos = () => {
-    containerItems.appendChild(itemsClassicos[0]);
+    containerItemsClassicos.appendChild(itemsClassicos[0]);
     itemsClassicos = document.querySelectorAll('.item-classicos');
 }
 
 const nextClassicos = () => {
-    const lastItem = itemsClassicos[items.length - 1];
-    containerItems.insertBefore( lastItem, itemsClassicos[0] );
+    const lastItem = itemsClassicos[itemsClassicos.length - 1];
+    containerItemsClassicos.insertBefore( lastItem, itemsClassicos[0] );
     itemsClassicos = document.querySelectorAll('.item-classicos');
 }
 

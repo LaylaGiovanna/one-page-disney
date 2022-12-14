@@ -45,3 +45,9 @@
   flex-wrap: wrap;
 }
 
+@media (max-width: 640px) {
+  .filmes{
+    display: none;
+  }
+}
+

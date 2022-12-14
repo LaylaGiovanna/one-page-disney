@@ -18,7 +18,6 @@
 
 .image-olaf{
     display: flex;
-    transform: translateY(-5px);
     z-index: 1;
 }
 
@@ -31,3 +30,15 @@ footer {
     color: var(--color-text);
     font-size: 1.1rem;
 }
+
+@media (max-width: 640px) {
+    .contatos{
+      display: none;
+    }
+
+    footer{
+        display: none;
+    }
+  }
+
+

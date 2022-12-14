@@ -90,6 +90,7 @@
 
 #next-classicos {
   border-radius: 0 20px 20px 0;
+  transform: translateX(3px);
 }
 
 .action-button-classicos:hover {
@@ -103,10 +104,16 @@
 .div-geometrico-classicos {
   height: 96px;
   transform: translateY(629px);
-  z-index: -1;
+  z-index: 1;
   position: absolute;
 }
 
 .geometrico-classicos {
   width: 600px;
+}
+
+@media (max-width: 640px) {
+  .classicos{
+    display: none;
+  }
 }
