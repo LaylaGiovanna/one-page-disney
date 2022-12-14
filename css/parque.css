@@ -98,7 +98,7 @@
     .parque {
         width: 100%;
         display: grid;
-        height: 310vh;
+        height: 298vh;
         justify-content: center;
         grid-template-rows: repeat(10, 1fr);
         grid-template-columns: repeat(3, 1fr);
