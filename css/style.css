@@ -73,4 +73,7 @@ section {
         max-width: 640px;
         height: 76vh;
     }
+    #link-topo{
+        display: none;
+    }
 }
